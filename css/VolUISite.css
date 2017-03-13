@@ -1,0 +1,78 @@
+﻿body 
+{
+    position:absolute;
+	padding:0px;
+	width: 100%;
+	height:100%;
+	font-family: "Microsoft YaHei", Calibri, Tahoma, Arial, Helvetica, sans-serif;
+	font-size: 15px;
+	color:Black;
+	margin:0px;
+}
+div
+{
+    margin-bottom:20px;
+    margin-left:10px;
+}
+h1,h2, h3
+{
+    display:inline;
+}
+input
+{
+    margin-left:5px;
+    margin-right:20px;
+}
+.newPanel
+{
+    background-color:Black;
+    color:White;
+    padding:5px;
+    line-height:30px;
+}
+
+.imgButton
+{
+    cursor:pointer;
+    float:right;
+    margin:4px;
+}
+
+.imgEditSim, .imgDeleteSim
+{
+    cursor:pointer;
+    position:relative;
+    top:5px;
+}
+
+.imgLoading
+{
+    height:16px;
+    display:none;
+    top:5px;
+}
+
+#attribute-CustomizedSimulator
+{
+    margin:0px;
+    background-color:#666666;
+}
+
+.attributePanel
+{
+    margin:0px;
+    margin-bottom:2px;
+    padding:0px;
+    background-color:#333333;
+}
+.attributePanel input
+{
+    margin:0px;
+}
+
+.toolBar
+{
+    background-color:black;
+    height: 30px;
+    margin:0px;
+}

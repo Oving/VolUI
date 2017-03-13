@@ -1,0 +1,126 @@
+﻿body 
+{
+    position:absolute;
+	padding:0px;
+	width: 100%;
+	height:100%;
+	font-family: "Microsoft YaHei", Calibri, Tahoma, Arial, Helvetica, sans-serif;
+	font-size: 15px;
+	color:#000;
+	margin:0px;
+}
+
+#leftBar
+{
+    position:absolute;
+    width: 300px;
+    height:100%;
+	overflow:hidden;
+    color:#fff;
+}
+
+#home
+{
+    height:60px;
+    width:100%;
+    background-color:Black;
+	font-size: 24px;
+	line-height:60px;
+	cursor:pointer;
+	padding-left:2px;
+}
+
+#siteList
+{
+    position:absolute;
+    width:100%;
+    top:60px;
+    bottom: 0px;
+    overflow-y:scroll;
+    background-color:white;
+    
+}
+
+.siteItem
+{
+    width:100%;
+    height:30px;
+    background-color:#EEEEEE;
+    line-height: 30px;
+    color:Black;
+    margin-bottom: 2px;
+}
+
+.siteItemSelected
+{
+    width:100%;
+    height:30px;
+    background-color:#CCCCCC;
+    line-height: 30px;
+    color:Black;
+    margin-bottom: 2px;
+}
+img.siteImport
+{
+    float: right; 
+    cursor: pointer;
+    background-repeat: no-repeat;
+    margin-top:6px;
+    margin-right:3px;
+}
+img.siteAdd, img.siteUpdate
+{
+    float: right; 
+    cursor:pointer;
+    background-repeat: no-repeat;
+    width: 27px;
+    height: 27px;
+    margin-top:6px;
+}
+img.siteAdd
+{
+    background-image: url("../imgs/icons/add.png");
+}
+img.siteUpdate
+{
+    background-image: url("../imgs/icons/update.png");
+}
+
+.siteEdit
+{
+}
+
+.siteText
+{   
+    cursor:pointer;
+    margin-left:5px;
+}
+
+.toolBar
+{
+    position: absolute;
+    width: 100%;
+    height:30px;
+    bottom:0px;
+    background-color:black;
+    line-height: 30px;
+}
+
+#containerFrame
+{
+    position: absolute;
+    top:0px;
+    bottom:0px;
+    left:300px;
+    right:0px;
+    padding:0px;
+    overflow:scroll;
+}
+
+#mainFrame
+{
+    position: absolute;
+    border-width:0px;
+    width:100%;
+    height:100%;
+}
