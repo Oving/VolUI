@@ -1,6 +1,6 @@
 # VolUI
 
-VolUI is designed for creating volumes and lines quickly and exactly.
+VolUI is a web plugin of NUCLEUS client , it's designed to creating mass of complex volumes and lines quickly and exactly.
 
 ## Latest version
 2.1.0 
@@ -22,30 +22,3 @@ VolUI is designed for creating volumes and lines quickly and exactly.
 + main.php
 + volume.php
 + README.md
-
-## Folder css
-Storing Style sheet files.
-
-## Folder fonts
-Storing font files.
-
-## Floder imgs
-Storing image files.
-
-## Floder js
-This folder contains the main code and 3rd-lib files. 
-
-## document.html
-The user guidance of this tool.
-
-## index.php
-Page for organizing other contents in this tool.
-
-## main.php
-Page for listing all devices and copying volumes or lines for them.  
-
-## volume.php
-Page for editing or creating a volume.
-
-## line.php
-Page for editing or creating a line.
